@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav {
+    background: lightgray;
+    padding: 30px;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+#main-nav li {
+    margin: auto;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#main-nav a:hover {
+    color: green;
+}
+
+
+.image-container img{
+    width: 100%;
+    display: auto;
+    margin-bottom: -7px;
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    padding: 10%;
+    
+    border-bottom: 5px solid gray;
+    height: auto;
+}
+.container h2 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.container p {
+    font-size: x-large;
+}
+
+#about-us {
+    border-bottom: none;
+}
+#about-us img{
+    border-radius: 50%;
+    max-width: 270px;
+}
+
+
+.event-container {
+    margin: 30px 0;
+    vertical-align: middle;
+}
+
+.event-container div {
+    display: inline-block;
+    border: 1px solid maroon;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.events {
+    border-bottom: none;
+}
+#panel-left {
+    width: 15%;
+    background: darkgray;
+    margin-right: -5px;
+
+}
+#panel-right {
+    width: 75%;
+    border: 1px solid brown;
+}
+
+.image-container {
+    width: 100%;
+}
+#people-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#about-us h2 {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: xx-large;
+}
+
+
+.person {
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.person h3 {
+    font-size: x-large;
+    margin-bottom: 3%;
+}
+
+.person h4 {
+    font-size: large;
+}
+
+#about-us img {
+   margin-top: 20px;
+}
+
+.main-contact {
+    margin: 50px 0;
+}
+
+.main-contact input, .main-contact textarea{
+    width: 80%;
+    margin: 10px;
+    border: 1px solid black;
+    min-height: 30px;
+}
+
+
+.main-contact input[type="submit"] {
+    border: none;
+    display: inline;
+    padding: 20px;
+}
+
+.main-contact input[type="submit"]:hover {
+    background: green;
+    cursor: pointer;
+}
+
+#contact-container {
+    border-bottom: none;
+}
+
+
+
+.links, .info {
+    color: #666;
+    text-align: center;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 0 12px;
+    width: 28px;
+    filter: brightness(100%);
+    transition: filter 0.25s ease;
+  }
+  
+  .links a:hover {
+    filter: brightness(25%);
+  }
+  
+  .info {
+    margin: 24px auto 0;
+    width: 75%;
+    text-align: center;
+  }
+  
+
+footer {
+    border-top: #ccc solid 1px;
+    padding: 10%;
+}
+
+
+
+

@@ -1,65 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
 <head>
-    <title>Home Page</title>
+    <title>BXSML</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <div class="purpose">Purpose</div>
-    <div class="logo">logo</div>
-    <div class="funfacts"> Fun Facts!
-        <ul>
-            <li>1. Machine learning means learning from data</li>
-            <li>2. Machine learning is about data and algorithms, but mostly data</li>
-            <li>3. radical</li>
-        </ul> 
-    </div>
-=======
+
     <header>
-        <h1>BXS Machine Learning Club</h1>
-        <nav>
-            <a href="index.html"><li>Home</li></a>
-            <a href="events.html"><li>Upcoming Events</li></a>
-            <a href="about.html"><li>Members Projects</li></a>
-            <a href="about.html"><li>About Us</li></a>
+        <nav id="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#events">Upcoming Events</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
         </nav>
-    </header> 
-    
-    <section class="upper">
-        <h2>Home</h2>
-        <img src="ClubLogo.png" alt="Our Logo">
-    
-        <h2>Who We Are</h2>
-        <p>The Bronx Science Machine Learning Club is a non-profit club at Bronx Science
-        which seeks to promote understanding of Machine
-        learning and its applications.</p>
-        
+    </header>
+    <section class="container">
+        <h2>Welcome to Bronx Science Machine Learning Club!</h2>
+        <p>We are a nonprofit club at Bronx Science with the goal
+            of introducing students to Machine Learning and enabling
+            them to solve real-world problems through our carefully 
+            thought out projects.
+        </p> <br>
+        <p>We hope to inspire other students to think critically and
+            develop strong problem solving skills. We hope to create 
+            the next generation of STEM leaders.
+        </p>
     </section>
+
+    
+    <section class="container events">
+        <h2 class="upcoming"><a name="events">Upcoming Events</a></h2>
+        <div class="event-container" id="event-1">
+            <div id="panel-left">Sept. 18</div>
+            <div id="panel-right"><strong>1st Club Meeting</strong> </div>
+        </div>
+
+        <div class="event-container">
+            <div id="panel-left">Oct. 1</div>
+            <div id="panel-right"><strong>Club Fair</strong> </div>
+        </div>
+
+        <div class="event-container">
+            <div id="panel-left">Nov. 12</div>
+            <div id="panel-right"><strong>Fieldtrip to Facebook</strong> </div>
+        </div>
+    </section>
+
+    <div class="image-container">
+        <img src="img/clublogo.png" alt="club logo">
+    </div>
+   
+
     
 
-    <section class="contact">
-        <form>
-        <h2>Contact Us</h2>
-        Name <br>
-        <input type="text" name="firstname"> <br> <br>
-        Email <br>
-        <input type="text" name="lastname">
-        <br> <br>
-        Message <br>
-        <input type="text" name="message">
-        <br> <br>
-        <input type="submit" value="Submit">
-        <br>
-        </form>
+    <section class="container" id="about-us">
+        <h2><a name="about">About Us</a></h2> 
+        <div id="people-container">
+            <div class="person">
+                    <h3>Robert Stanciu </h3>
+                    <h4>Treasurer</h6>
+                    <img src="img/robert.png" alt="Robert photo">
+                </div>
+                <div class="person">
+                    <h3>Montaha Rahman </h3>
+                    <h4>Secretary</h6>
+                    <img src="img/montaha.png" alt="Montaha photo">
+                </div>
+                <div class="person">
+                    <h3>Michael Batavia </h3>
+                    <h4>Co-Vice President</h6>
+                    <img src="img/michael.png" alt="Michael photo">
+                </div>
+                <div class="person">
+                    <h3>James Chu </h3>
+                    <h4>Co-Vice President</h6>
+                    <img src="img/james.png" alt="James photo">
+                </div>
+                <div class="person">
+                    <h3>Zachary Hine </h3>
+                    <h4>Founder & President</h6>
+                    <img src="img/zach.jpg" alt="Zach photo">
+                </div>
+        </div>
     </section>
     
     <footer>
-        75 W 205th St, The Bronx, NY 10468
+        <div class="links">
+          
+            <a href="mailto:zacharyhine@gmail.com" target="_blank"><img src="/img/email.svg" /></a>
+          
+            <a href="https://twitter.com/ZacharyHine" target="_blank"><img src="/img/twitter.svg" /></a>
+          
+            <a href="https://github.com/mebeZ" target="_blank"><img src="/img/github.svg" /></a>
+          
+            <a href="https://www.linkedin.com/in/zachary-hine-426553155/" target="_blank"><img src="/img/linkedin.svg" /></a>
+          
+        </div>
+        <div class="info">
+          <span>&copy; <a name="contact">Bronx Science Machine Learning Club</a></span>
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+        </div>
     </footer>
->>>>>>> parent of 686a510... Revert "Update about.html"
+
 </body>
-<footer>
-    
-</footer>
 </html>

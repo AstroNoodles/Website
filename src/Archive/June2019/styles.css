@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    background: #bdbdbd;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    padding: 0 10px 0 10px;
+}
+
+section div div {
+    border-radius: 20px;
+    background: beige;
+    border-color: black;
+
+    margin: 10px 20px 20px 0;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+section p {
+    position: relative;
+    top: 20px;
+}
+
+.event-tag {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header {
+    background: none;
+    color: black;
+    text-align: center;
+}
+
+section.upper img {
+    border-radius: 20px;
+}
+
+nav li {
+    color: purple;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+#event h2 {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#event div {
+    height: 75px;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+#event div:hover {
+    text-decoration: underline;
+}
+
+#event div div {
+    border: 1px solid black
+}
+
+#event div p {
+    font-size: small;
+}
+
+nav li:hover {
+    text-decoration: underline; 
+}
+
+button {
+    margin-top: 60px;
+    border-radius: 5px;
+    background: darkseagreen;
+    font-size: 14px;
+}
+
+/* Projects CSS Attribute */
+.title-tag {
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#project-collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    font-family: "Open Sans", SansSerif, sans-serif;
+    padding: 10px 80px 10px 80px;
+    text-align: center;
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.project-imgs {
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 30px
+}
